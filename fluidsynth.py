@@ -62,7 +62,7 @@ def load_libfluidsynth(debug_print: bool = False) -> str:
     Windows X86:
     * 'libfluidsynth-3' was loaded as C:\tools\fluidsynth\bin\libfluidsynth-3.dll.
     """
-    libs = "fluidsynth libfluidsynth libfluidsynth-3 libfluidsynth-2 libfluidsynth-1"
+    libs = "fluidsynth libfluidsynth libfluidsynth-3 libfluidsynth-2 libfluidsynth-1 libfluidsynth64"
     for lib_name in libs.split():
         lib = find_library(lib_name)
         if lib:
